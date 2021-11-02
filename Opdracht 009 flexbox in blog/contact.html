@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Bed contact </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header></header>
+
+<body>
+
+
+    <div id="logo"> 
+        <h1> Sticky Bed  </h1>
+        <a class="slogan">Het dekbed dat blijft zitten</a>
+
+
+    </div>
+    
+    <div id="nav"> 
+        <ul class="mainnav">
+
+            <li><a href="index.html">   Home        </a>                   </li>
+            <li><a href="overons.html"> Over ons    </a>                   </li>
+            <li><a href="contact.html"> Contact      </a>                    </li>
+            <li><a href="blog.html"> Blog            </a>                    </li>
+            
+        </ul>
+    </div>
+
+
+    <div id="foto"> Bel/mail/app voor een afspraak</div>
+
+    <div id="contactgegevens">
+        <p>Contactformulier</p>
+     
+    </div>
+
+  
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Naam: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+          <label>Email: <input type="email" name="email" /></label>
+        </p>
+
+        <p>
+          <label>Telefoonnummer: <input class="telefoonnummer" type="tel" name="Telefoonnummer" /></label>
+        </p>
+
+        <p>
+          <label>leeftijd: <input type="td" name="leeftijd" />       </label>
+
+        </p>
+
+        <p>
+          <label>voorkeurs datum afspraak: <input class="afspraakveld" type="date" name="afspraakdatum" />       </label>
+
+        </p>
+
+
+      <p>
+         <h4><label> Voorkeur dagdeel:   </label></h4> 
+        </p>
+
+        <p>
+          <label>Ochtend <input class="dagdeelochtend" type="radio" name="dagdeel" value="ochtend">            </label>
+         
+        </p>
+             
+        <p>
+          <label>Middag <input class="dagdeelmiddag" type="radio" name="dagdeel" value="middag">            </label>
+        </p>
+
+        <p>
+          <h4><label> Gewenst aantal:   </label></h4> 
+         </p>
+
+        <p>
+          <label>bestelling 1 dekbed: <input class="dekbed" type="checkbox" name="bestelling" value="1">            </label>
+        </p>
+
+        <p>
+          <label>bestelling 2 dekbedden: <input class="dekbed" type="checkbox" name="bestelling" value="2">            </label>
+        </p>
+
+        <p>
+          <label>bestelling 3 dekbedden: <input class="dekbed" type="checkbox" name="bestelling" value="3">            </label>
+        </p>
+
+        <p>
+          <label>kleurkeuze sticksel: <input class="kleurkeuze" type="color" name="kleurkeuze">            </label>
+        </p>
+      
+
+        <p>
+          <label>Opmerking: <textarea class="opmerking" name="Opmerking"></textarea>            </label>
+        </p>
+
+        <p>
+          <label>Eventueel bestand toevoegen: <input type="file" name="file">            </label>
+        </p>  
+
+        <p>
+          <label>Link <input type="url" name="link">            </label>
+        </p> 
+
+        <p class="button">
+          <button class="submitbutton" type="submit">Send</button>
+         </p>
+
+
+        <p class="button">
+                <button class="resetbutton" type="reset">reset</button>
+        </p>
+
+      </form>
+    
+
+</body>
+</html>

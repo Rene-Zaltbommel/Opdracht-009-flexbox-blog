@@ -1,0 +1,70 @@
+#logo {
+  background-color:whitesmoke;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  font-style: italic;
+  text-align: left;
+  }
+
+.slogan{
+  color: black;
+}
+
+.mainnav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(5, 22, 8);
+  color: white;
+}
+
+a{   
+  color: white;
+}
+
+.blogitems{
+  
+  width: calc(100vh - 20px);
+  border: 10px solid  blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.blogpost1{ 
+   border: 1px solid black; 
+   
+}
+
+.blogpost2{ 
+  border: 1px solid black; 
+  flex-grow:5;
+  background-color: chartreuse;
+}
+
+.blogpost3{ 
+
+  border: 1px solid black; 
+  flex-grow:5;
+  background-color:orange; 
+  
+}
+
+.blogpost4{ 
+  border: 1px solid black; 
+
+}
+
+.blogpost5{ 
+  
+border: 1px solid black; 
+justify-content: center;
+  align-self: center;
+  background-color: orchid;
+}
+
+
+
+
